@@ -17,7 +17,7 @@ section {
   overflow: hidden;
   display: flex;
   justify-content: center;
-  align-items: content;
+  align-items: center;
 }
 
 section:before {
@@ -64,4 +64,33 @@ section img {
 
 #road {
   z-index: 2;
+}
+
+.content {
+  position: relative;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.content h2 {
+}
+
+.content p {
+}
+
+@media (max-width: 360px) {
+  #text {
+    font-size: 3.8em;
+    margin-bottom: 200px;
+  }
+  section {
+    height: 80vh;
+  }
+  img#moon {
+    height: auto;
+    width: 400px;
+  }
 }
