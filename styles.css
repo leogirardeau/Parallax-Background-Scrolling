@@ -61,3 +61,7 @@ section img {
   align-items: center;
   justify-content: center;
 }
+
+#road {
+  z-index: 2;
+}
